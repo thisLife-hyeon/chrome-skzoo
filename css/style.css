@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap");
+html,
+body {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Gowun Batang", serif;
+  font-weight: 400;
+  color: #fff;
+  font-size: 62.5%;
+}
+
+ul,
+ol,
+li,
+a {
+  text-decoration: none;
+  color: none;
+}
+
+body {
+  background-color: rgb(44, 33, 22);
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+body .main {
+  font-size: 1.6rem;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+body .main .todo .currentTime {
+  font-size: 8rem;
+  font-weight: 700;
+}
+body .quote {
+  font-size: 1rem;
+  position: absolute;
+  top: 90%;
+  margin-left: 20px;
+}
+
+.img_box.bg01 {
+  background-image: url(/img/skzoo01.jpg);
+}
+.img_box.bg02 {
+  background-image: url(/img/skzoo02.jpg);
+}
+.img_box.bg03 {
+  background-image: url(/img/skzoo03.jpg);
+}
+.img_box.bg04 {
+  background-image: url(/img/skzoo04.jpg);
+}
+.img_box.bg05 {
+  background-image: url(/img/skzoo05.jpg);
+}
+.img_box.bg06 {
+  background-image: url(/img/skzoo06.jpg);
+}
+.img_box.bg07 {
+  background-image: url(/img/skzoo07.jpg);
+}
+.img_box.bg08 {
+  background-image: url(/img/skzoo08.jpg);
+}
