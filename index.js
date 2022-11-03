@@ -1,14 +1,14 @@
 function randombg() {
   let change = Math.floor(Math.random() * 8) + 1;
   const skzoos = [
-    "url(img/skzoo01.jpg)",
-    "url(img/skzoo02.jpg)",
-    "url(img/skzoo03.jpg)",
-    "url(img/skzoo04.jpg)",
-    "url(img/skzoo05.jpg)",
-    "url(img/skzoo06.jpg)",
-    "url(img/skzoo07.jpg)",
-    "url(img/skzoo08.jpg)",
+    "url(img/skzoo01.png)",
+    "url(img/skzoo02.png)",
+    "url(img/skzoo03.png)",
+    "url(img/skzoo04.png)",
+    "url(img/skzoo05.png)",
+    "url(img/skzoo06.png)",
+    "url(img/skzoo07.png)",
+    "url(img/skzoo08.png)",
   ];
   document.getElementById("background").style.backgroundImage = skzoos[change];
 }
