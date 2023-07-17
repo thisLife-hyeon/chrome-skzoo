@@ -10,7 +10,12 @@ ol,
 li,
 a {
   text-decoration: none;
-  color: none;
+  color: inherit;
+}
+a:hover {
+  color: #fff;
+  text-shadow: 0px 0px 10px rgb(150, 165, 173), 0px 0px 40px whitesmoke,
+    0px 0px 20px rgb(255, 255, 255);
 }
 
 body {
