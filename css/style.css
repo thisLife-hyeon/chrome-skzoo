@@ -2,6 +2,7 @@
 html,
 body {
   box-sizing: border-box;
+  margin: 0;
 }
 
 ul,
@@ -20,7 +21,7 @@ body {
   font-size: 62.5%;
   width: 100vw;
   height: 100vh;
-  background-color: #000;
+  background-color: #00576d;
   background-repeat: no-repeat;
   background-size: contain;
   background-position-y: center;
@@ -36,7 +37,7 @@ body .main {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.3);
 }
 body .main .clock {
   display: flex;
@@ -61,4 +62,7 @@ body .quote {
   top: 90%;
   left: 4%;
   line-height: 0.8;
+}
+body .quote .quoteContent {
+  color: gainsboro;
 }
