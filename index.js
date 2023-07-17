@@ -1,6 +1,7 @@
 function randombg() {
   let change = Math.floor(Math.random() * 11) + 1;
   const skzoos = [
+    "url(img/skzoo00.png)",
     "url(img/skzoo01.png)",
     "url(img/skzoo02.png)",
     "url(img/skzoo03.png)",
