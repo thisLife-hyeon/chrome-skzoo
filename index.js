@@ -1,5 +1,5 @@
 function randombg() {
-  let change = Math.floor(Math.random() * 9) + 1;
+  let change = Math.floor(Math.random() * 11) + 1;
   const skzoos = [
     "url(img/skzoo01.png)",
     "url(img/skzoo02.png)",
@@ -9,7 +9,9 @@ function randombg() {
     "url(img/skzoo06.png)",
     "url(img/skzoo07.png)",
     "url(img/skzoo08.png)",
-    "url(https://dbkpop.com/wp-content/uploads/2023/05/stray_kids_5_star_teaser_all_group-1536x1229.jpg)",
+    "url(img/skz1.jpg)",
+    "url(img/skz2.jpg)",
+    "url(img/skz3.jpg)",
   ];
   document.getElementById("background").style.backgroundImage = skzoos[change];
 }
